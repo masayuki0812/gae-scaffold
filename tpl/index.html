@@ -1,0 +1,29 @@
+{% import 'macro.html' as m %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {# -- header -- #}
+  {% include 'header.html' %}
+
+  {# -- body -- #}
+  <body>
+    {# -- nav -- #}
+    {{ m.nav(active = 'home') }}
+
+    {# -- container -- #}
+    <div class="container">
+      <h1>It works.</h1>
+    </div><!--/.container-->
+
+    {# -- common scripts --#}
+    {% include 'script.html' %}
+
+    {# -- script -- #}
+    <script>
+$(function () {
+});
+    </script>
+
+  </body>
+</html>
