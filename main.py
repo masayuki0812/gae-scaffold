@@ -7,14 +7,17 @@ import sys
 import logging
 
 sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
-## Note: Import libraries in ./lib here
+from my.db import MyModel
 
 # -- Pages --#
 
 class Index(webapp2.RequestHandler):
   def get(self):
 
+    my_models = MyModel.all()
+
     template_values = {
+      'message': 'It works.',
     }
 
     template = jinja_environment.get_template('index.html')
