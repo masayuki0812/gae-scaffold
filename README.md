@@ -1,7 +1,7 @@
 gae-scaffold
 ============
 
-Scaffold for Google App Engine.
+Scaffold for Google App Engine in Python.
 
 ## Features
 
