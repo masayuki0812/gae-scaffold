@@ -1,7 +1,7 @@
 gae-scaffold
 ============
 
-Scaffold for Google App Engine
+Scaffold for Google App Engine.
 
 ## Features
 
@@ -17,4 +17,4 @@ Scaffold for Google App Engine
 
 ## Credits
 
-- Twitter Bootstrap - [Bootstrap][bootstrap]
+- Twitter Bootstrap [@twitter](https://github.com/twitter/bootstrap)
